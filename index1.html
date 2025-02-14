@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <canvas id="canvas"></canvas>
+    
+    <div id="array-container"></div>
+    
+    <div id="controls">
+        
+        <button id="bubblesort" onclick="bubbleSort()">Bubble Sort</button>
+        <button id="quicksort" onclick="quickSort()">Quick Sort</button>
+        <button id="mergesort" onclick="mergeSort()">Merge Sort</button>
+        <button id="insertionsort" onclick="insertionSort()">Insertion Sort</button>
+        <button id="refresh">Refresh</button>
+
+        <fieldset>
+            <legend>speed</legend>
+            <select name="speed" id="speed">
+                <option value="2">0.5</option>
+                <option value="1">1</option>
+                <option value="0.8">2</option>
+                <option value="0.5">3</option>
+                <option value="0.3">4</option>
+                <option value="0.1">5</option>
+                <option value="0.01">10</option>  
+                <option value="0.001">100</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend >size</legend>
+            <select name="size" id="size">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+                <option value="30">35</option>
+            </select>
+        </fieldset>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
