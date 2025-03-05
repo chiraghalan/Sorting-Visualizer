@@ -3,9 +3,13 @@
 
 🌟 Features
 ✅ Supports Multiple Sorting Algorithms: Bubble Sort, Quick Sort, Merge Sort, and Insertion Sort
+
 ✅ Adjustable Array Size: Change the number of elements dynamically
+
 ✅ Speed Control: Modify the speed of sorting animations
+
 ✅ Step-by-Step Visualization: Watch each sorting step in action
+
 ✅ Interactive UI: Beautiful animations with color-coded bars
 
 🖥️ Live Demo
@@ -13,6 +17,7 @@
 
 🛠️ Tech Stack
 💻 Frontend: HTML, CSS, JavaScript
+
 📜 Libraries Used: None (Pure JavaScript)
 
 📥 Installation & Usage
@@ -77,8 +82,11 @@ Builds the sorted array one element at a time.
 Compares each element and places it in its correct position.
 🎮 How to Use the Visualizer?
 1️⃣ Select Sorting Algorithm: Click on one of the buttons (Bubble Sort, Quick Sort, etc.)
+
 2️⃣ Adjust Size & Speed: Use the sliders to modify the array size and sorting speed
+
 3️⃣ Generate New Array: Click Refresh to create a new random array
+
 4️⃣ Start Sorting: Press the selected sorting algorithm to watch the visualization!
 
 🖼️ Screenshots
@@ -90,12 +98,16 @@ Compares each element and places it in its correct position.
 
 🏆 Why Use This Visualizer?
 ✅ Great for Learning: Helps students understand sorting algorithms with animations
+
 ✅ Intuitive UI: Easy-to-use interface with clean visuals
+
 ✅ No Dependencies: Works in any modern web browser
 
 🚀 Future Improvements
 🔹 Add more sorting algorithms (Heap Sort, Selection Sort)
+
 🔹 Improve UI with better animations
+
 🔹 Add a step-by-step mode for deeper understanding
 
 📜 License
@@ -105,13 +117,19 @@ Compares each element and places it in its correct position.
 👨‍💻 Contributions are welcome! If you’d like to improve this project:
 
 Fork the repository
+
 Create a new branch (git checkout -b feature-name)
+
 Commit your changes (git commit -m "Added new feature")
+
 Push to the branch (git push origin feature-name)
+
 Open a Pull Request 🚀
+
 📬 Contact & Support
-📧 Your Email:halanchirag@gmail.com
-🐙 GitHub: https://github.com/chiraghalan
+📧 Your Email: your-email@example.com
+
+🐙 GitHub: Your GitHub Profile
 
 🌟 If you found this project helpful, don’t forget to star ⭐ the repo!
 
