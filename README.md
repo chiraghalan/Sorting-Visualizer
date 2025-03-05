@@ -1,143 +1,118 @@
-# 🖥️ Sorting Algorithm Visualizer
+📌 Sorting Visualizer
+🔹 A Sorting Algorithm Visualizer built using HTML, CSS, and JavaScript. This interactive web application helps you visualize how different sorting algorithms work in real-time. 🖥️✨
 
-![Sorting Visualizer](https://your-image-url.com/banner.png)
+🌟 Features
+✅ Supports Multiple Sorting Algorithms: Bubble Sort, Quick Sort, Merge Sort, and Insertion Sort
+✅ Adjustable Array Size: Change the number of elements dynamically
+✅ Speed Control: Modify the speed of sorting animations
+✅ Step-by-Step Visualization: Watch each sorting step in action
+✅ Interactive UI: Beautiful animations with color-coded bars
 
-🚀 **Sorting Algorithm Visualizer** is a **web-based tool** designed to help users understand how different sorting algorithms work **step by step** with **real-time animations**. Whether you are a beginner trying to learn sorting or an expert brushing up, this tool makes sorting **fun and interactive**!  
+🖥️ Live Demo
+🚀 Check out the live version: Sorting Visualizer
 
-## 🎯 **Key Features**
+🛠️ Tech Stack
+💻 Frontend: HTML, CSS, JavaScript
+📜 Libraries Used: None (Pure JavaScript)
 
-✅ **Visualize Sorting Algorithms**
-- 🔴 **Bubble Sort**  
-- 🟠 **Quick Sort**  
-- 🟢 **Merge Sort**  
-- 🔵 **Insertion Sort**  
-- 🟣 **Selection Sort** (Coming Soon)
-
-✅ **Dynamic Array Generation**
-- 🎲 Randomized array generation at the click of a button  
-- 🎚️ Adjustable array **size**  
-- ⏳ Adjustable **sorting speed**  
-
-✅ **Real-time Sorting Animations**
-- Color-coded bars:
-  - 🔴 **Red** → Elements being compared  
-  - 🟠 **Orange** → Elements being swapped  
-  - 🟢 **Green** → Sorted elements  
-  - 🔵 **Blue** → Default state  
-
-✅ **Fully Responsive UI**
-- Works on **desktops, tablets, and mobile devices** 📱💻  
-
----
-
-## 🚀 **Live Demo**
-
-🔗 [Click here to try the Sorting Visualizer](https://your-demo-link.com)
-
----
-
-## 🛠️ **Technology Stack**
-
-This project is built using:  
-
-| Technology | Description |
-|------------|------------|
-| **HTML5** | Structuring the web page |
-| **CSS3** | Styling & animations |
-| **JavaScript (ES6+)** | Handling sorting logic & interactivity |
-| **Bootstrap** | Responsive layout |
-| **DOM Manipulation** | Creating visual animations |
-
----
-
-## 🏗️ **How It Works? (Behind the Scenes)**
-
-Each sorting algorithm follows a unique approach:  
-
-🔹 **Bubble Sort** - Repeatedly swaps adjacent elements if they are in the wrong order.  
-🔹 **Quick Sort** - Uses a **pivot** to divide and conquer the array.  
-🔹 **Merge Sort** - Splits the array into halves, sorts them, and merges them back.  
-🔹 **Insertion Sort** - Builds a sorted array one element at a time.  
-
-The **sorting visualizer** animates these steps by modifying the **DOM** in real-time, changing the height and color of bars to represent different stages of sorting.
-
----
-
-## 🎬 **Getting Started**
-
-### 📥 **Installation**
-To run this project locally, follow these steps:
-
-1️⃣ **Clone the repository**  
-```sh
+📥 Installation & Usage
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
 git clone https://github.com/yourusername/Sorting-Visualizer.git
-2️⃣ **Navigate to the project directory**
-
+2️⃣ Navigate to the Project Directory
 sh
 Copy
 Edit
 cd Sorting-Visualizer
-3️⃣ Open index.html in your browser
+3️⃣ Open the Application
+Simply open the index.html file in your browser. 🌐
 
-You can simply double-click the file or
-Run with Live Server in VS Code.
-📌 Usage Guide
-🏁 Step 1: Choose an Algorithm
-Click on any of the buttons:
+Alternatively, you can use Live Server in VS Code:
 
-🟢 "Bubble Sort"
-🔵 "Quick Sort"
-🟠 "Merge Sort"
-🔴 "Insertion Sort"
-🎲 Step 2: Generate an Array
-Click on the "Generate New Array" button to create a random array.
+sh
+Copy
+Edit
+# If you have Live Server installed
+Right-click 'index.html' > Open with Live Server
+📌 Sorting Algorithms Implemented
+🔴 Bubble Sort
+🔹 Worst-case Time Complexity: O(n²)
+🔹 Best-case Time Complexity: O(n)
+🔹 Stable Sort: ✅ Yes
 
-🎚️ Step 3: Adjust Parameters
-Size Slider → Adjusts the number of bars (array size).
-Speed Slider → Controls the sorting speed (fast/slow).
-▶️ Step 4: Start Sorting
-Click "Start" and watch the sorting process unfold with animations! 🚀
+👀 How it Works?
 
-🔄 Step 5: Reset & Try Again
-Want to test another algorithm? Refresh the array and repeat the steps.
+Compares adjacent elements and swaps them if they are in the wrong order.
+The largest element bubbles up to the end in each pass.
+The process repeats until the array is fully sorted.
+🟠 Quick Sort
+🔹 Worst-case Time Complexity: O(n²)
+🔹 Average-case Time Complexity: O(n log n)
+🔹 Stable Sort: ❌ No
 
-📸 Screenshots
+👀 How it Works?
 
-🔥 Roadmap & Future Improvements
-We plan to add more features, including:
+Selects a pivot element and partitions the array into two halves.
+Recursively sorts each half until fully sorted.
+Uses Divide & Conquer strategy.
+🟡 Merge Sort
+🔹 Worst-case Time Complexity: O(n log n)
+🔹 Best-case Time Complexity: O(n log n)
+🔹 Stable Sort: ✅ Yes
 
-🔹 More Sorting Algorithms: Selection Sort, Heap Sort, Radix Sort
-🔹 Pause & Resume Sorting
-🔹 Dark Mode UI 🌙
-🔹 Step-by-Step Execution Mode (Manually navigate through each step)
-🔹 Performance Metrics (Compare sorting speeds of different algorithms)
+👀 How it Works?
 
-Want to contribute? See below! ⬇️
+Divides the array into smaller subarrays until each contains a single element.
+Merges the subarrays in sorted order.
+🟢 Insertion Sort
+🔹 Worst-case Time Complexity: O(n²)
+🔹 Best-case Time Complexity: O(n)
+🔹 Stable Sort: ✅ Yes
 
-🤝 Contributing
-We welcome contributions from the community! Here's how you can help:
+👀 How it Works?
 
-🔹 Fork the repository
-🔹 Create a new branch
-🔹 Commit your changes
-🔹 Submit a pull request
+Builds the sorted array one element at a time.
+Compares each element and places it in its correct position.
+🎮 How to Use the Visualizer?
+1️⃣ Select Sorting Algorithm: Click on one of the buttons (Bubble Sort, Quick Sort, etc.)
+2️⃣ Adjust Size & Speed: Use the sliders to modify the array size and sorting speed
+3️⃣ Generate New Array: Click Refresh to create a new random array
+4️⃣ Start Sorting: Press the selected sorting algorithm to watch the visualization!
 
-For major changes, please open an issue first to discuss your idea!
+🖼️ Screenshots
+🔹 Main Interface
+📌 Add a screenshot of the visualizer
 
-❓ FAQs
-1️⃣ What is the purpose of this project?
-This project helps students and developers visually understand sorting algorithms through real-time animations.
+🔹 Sorting in Action
+📌 Add a GIF or screenshot showing sorting steps
 
-2️⃣ Which sorting algorithms are currently available?
-Right now, we have Bubble Sort, Quick Sort, Merge Sort, and Insertion Sort, with more coming soon!
+🏆 Why Use This Visualizer?
+✅ Great for Learning: Helps students understand sorting algorithms with animations
+✅ Intuitive UI: Easy-to-use interface with clean visuals
+✅ No Dependencies: Works in any modern web browser
 
-3️⃣ Can I suggest a new feature?
-Absolutely! Open a GitHub issue and describe your feature request.
+🚀 Future Improvements
+🔹 Add more sorting algorithms (Heap Sort, Selection Sort)
+🔹 Improve UI with better animations
+🔹 Add a step-by-step mode for deeper understanding
 
-🛡️ License
-📜 This project is licensed under the MIT License - see the LICENSE file for details.
+📜 License
+📄 This project is licensed under the MIT License.
 
-💙 Connect With Me
-👤 Your Name
-🔗 GitHub: chiraghalan
-📧 Email:halanchirag@gmail.com
+💡 Contributing
+👨‍💻 Contributions are welcome! If you’d like to improve this project:
+
+Fork the repository
+Create a new branch (git checkout -b feature-name)
+Commit your changes (git commit -m "Added new feature")
+Push to the branch (git push origin feature-name)
+Open a Pull Request 🚀
+📬 Contact & Support
+📧 Your Email:halanchirag@gmail.com
+🐙 GitHub: https://github.com/chiraghalan
+
+🌟 If you found this project helpful, don’t forget to star ⭐ the repo!
+
+🔥 Enjoy Sorting! Happy Coding! 🚀
