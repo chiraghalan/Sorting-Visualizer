@@ -37,7 +37,7 @@
 ### 1️⃣ Clone the Repository  
 
 ```
-git clone https://github.com/yourusername/Sorting-Visualizer.git
+git clone https://github.com/chiraghalan/Sorting-Visualizer.git
 ```
 2️⃣ Navigate to the Project Directory
 ```
