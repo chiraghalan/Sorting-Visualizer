@@ -20,7 +20,7 @@
 
 ## 🖥️ Live Demo  
 
-🚀 Check out the live version: [Sorting Visualizer](https://your-live-demo-link.com)  
+🚀 Check out the live version: [Sorting Visualizer](https://sortingvisualizer2753.vercel.app/)  
 
 ---
 
